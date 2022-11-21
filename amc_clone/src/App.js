@@ -1,8 +1,9 @@
 import './App.css';
 import {useState} from 'react';
-import searchIcon from './kindpng_1433595.png';
-import companyLogo from './4714929_amc-logo-amc-theaters-logo-png-transparent-png.png'
-import posterIcon from './Black-Panther-wakanda-forever-Character-Posters.webp'
+import searchIcon from './Images/kindpng_1433595.png';
+import companyLogo from './Images/4714929_amc-logo-amc-theaters-logo-png-transparent-png.png';
+import posterIcon from './Images/Black-Panther-wakanda-forever-Character-Posters.webp';
+import companyLogo2 from './Images/www.amctheatres.com_movies_black-panther-wakanda-forever-56467.png'
 
 const App = () => {
   const [isName, setName] = useState('');
@@ -19,13 +20,13 @@ const App = () => {
         <div className="Banner">
           <div className="CompanyLogo">
             <div className="Logo">
-              <img style={{width: '50px', height: '40px'}} src={companyLogo} alt='logo' />
+              <img style={{width: '100%', height: '8vh'}} src={companyLogo2} alt='logo' />
             </div>
           </div>
           <div className="Search">
             <label>
               <div className="SearchIcon">
-                <img style={{width: '30px', height: '30px'}}src={searchIcon} alt='search' />
+                <img style={{width: '100%', height: '8vh'}}src={searchIcon} alt='search' />
               </div>
               <input type='text' placeholder='Search...'/>
             </label>
@@ -53,7 +54,7 @@ const App = () => {
         </div>
       </div>
       <div className="SiteContent">
-        <div className="HasImage">
+        <div className="Poster">
           <img style={{width:'100%'}} src={posterIcon} alt='poster' />
           <div className="Title">
             Black Panther: Wakanda Forever
