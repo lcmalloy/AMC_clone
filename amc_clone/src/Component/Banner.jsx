@@ -15,7 +15,7 @@ const Banner = () => {
           <div className="SearchIcon-Container">
             <img className="SearchIcon" src={searchIcon} alt='search' />
           </div>
-          <input type='text' placeholder='Search...'/>
+          <input className="Search-Bar" type='text' placeholder='Search...'/>
         </label>
       </div>
       <div className="Tabs">

@@ -54,6 +54,11 @@
   margin-left: 25px;
   align-items: center;
 }
+
+.Search-Bar {
+  font-size: 20px;
+  padding-left: 10px;
+}
 .Tabs {
   display: flex;
   height: 100%;
