@@ -108,6 +108,12 @@ input {
   flex-direction: column;
 }
 
+.PosterImage {
+  height: 70vh;
+  margin-top: 12vh;
+  object-fit: cover;
+}
+
 .MovieDetails {
   background: black;
   color: white;
@@ -132,7 +138,7 @@ input {
 
 .Title-Container {
   position: relative;
-  bottom: 45vh;
+  bottom: 28vh;
   left: 6vw;
 }
 
@@ -146,6 +152,13 @@ input {
   align-items: flex-start;
   align-content: space-between;
   margin-top: 7vh;
+  margin-left: 15px;
+  transition: background-color 0.3s;
+}
+
+.Available-Showing-Container:hover {
+  background-color:rgba(29, 28, 28, 0.8);
+
 }
 
 #Availability-Style {
@@ -153,10 +166,10 @@ input {
   border-left-style:outset;
   border-right-style:groove;
   border-bottom-style:groove;
-  border-top-color:rgb(74, 113, 147);
-  border-left-color:rgb(74, 113, 147);
-  border-right-color:darkgoldenrod;
-  border-bottom-color:darkgoldenrod;
+  border-top-color:rgba(0, 168, 225, 0.8);
+  border-left-color: rgba(0, 168, 225, 0.8);
+  border-right-color:rgba(124, 12, 12, 0.8);
+  border-bottom-color:rgba(124, 12, 12, 0.8);
 }
 
 .Showing-Header {
