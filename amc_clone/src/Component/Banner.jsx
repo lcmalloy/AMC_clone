@@ -1,4 +1,4 @@
-import '../App.css';
+import '../Styles/Banner.css';
 import searchIcon from '../Images/kindpng_1433595.png';
 import companyLogo2 from '../Images/www.amctheatres.com_movies_black-panther-wakanda-forever-56467.png'
 

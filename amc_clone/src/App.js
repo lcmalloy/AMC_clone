@@ -1,4 +1,4 @@
-import './App.css';
+import './Styles/App.css';
 import {useState} from 'react';
 import Banner from './Component/Banner.jsx'
 import posterIcon from './Images/Black-Panther-wakanda-forever-Character-Posters.webp';
