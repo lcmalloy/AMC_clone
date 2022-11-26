@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="Banner">
       <div className="CompanyLogo">
         <div className="Logo">
-          <img className="Logo-Image" style={{width: '8vh', height: '6vh'}} src={companyLogo2} alt='logo' />
+          <img className="Logo-Image" src={companyLogo2} alt='logo' />
         </div>
       </div>
       <div className="Search">

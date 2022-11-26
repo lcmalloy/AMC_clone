@@ -28,6 +28,7 @@
   height: 100%;
   width: 10%;
   justify-content: center;
+  margin-left: 15px;
 }
 
 .Logo, .SearchIcon-Container {
@@ -35,8 +36,7 @@
 }
 
 .Logo-Image, .SearchIcon {
-  width: 8vh;
-  height: 6vh;
+  height: 5vh;
 }
 
 .IsFood, .IsMovie, .Search, .IsTheater, .IsDemand, .IsExtra, .IsGiftCards {
@@ -51,7 +51,7 @@
 .Search {
   display: flex;
   height: 100%;
-  justify-content: space-evenly;
+  margin-left: 25px;
   align-items: center;
 }
 .Tabs {
