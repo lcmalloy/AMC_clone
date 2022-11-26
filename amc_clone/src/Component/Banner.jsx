@@ -20,22 +20,34 @@ const Banner = () => {
       </div>
       <div className="Tabs">
         <div className="IsMovie">
-          See A Movie
+          <a className="Nav-Button" href="https://www.amctheatres.com/movies">
+            See A Movie
+          </a>
         </div>
         <div className="IsFood">
-          Food & Drinks
+          <a className="Nav-Button" href="https://www.amctheatres.com/food-and-drink">
+            Food & Drinks
+          </a>
         </div>
         <div className="IsTheater">
-          Our Theater
+          <a className="Nav-Button" href="https://www.amctheatres.com/movie-theatres">
+            Our Theaters
+          </a>
         </div>
         <div className="IsDemand">
-          On Demand
+          <a className="Nav-Button" href="https://www.amctheatres.com/on-demand">
+            On Demand
+          </a>
         </div>
         <div className="IsExtra">
-          Extras
+          <a className="Nav-Button" href="https://www.amctheatres.com/offers">
+            Extras
+          </a>
         </div>
         <div className="IsGiftCards">
-          Gift Cards
+          <a className="Nav-Button" href="https://www.amctheatres.com/gift-cards">
+            Gift Cards
+          </a>
         </div>
       </div>
     </div>
