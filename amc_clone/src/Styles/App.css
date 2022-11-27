@@ -58,18 +58,14 @@
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 8;
-  display: grid;
+  grid-row-end: 6;
   justify-content: center;
   align-items: flex-start;
   align-content: space-between;
   margin-top: 7vh;
   margin-left: 15px;
+  overflow-y: scroll;
   transition: background-color 0.3s;
-}
-
-.Available-Showing-Container:hover {
-  background-color:rgba(29, 28, 28, 0.8);
 }
 
 #Availability-Style {
@@ -86,6 +82,8 @@
 .Showing-Header {
   text-align: center;
   font-size: 3vw;
+  margin-top: 3vh;
+  margin-bottom: 20px;
 }
 
 .Title {
