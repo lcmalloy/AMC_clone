@@ -1,17 +1,9 @@
 import './Styles/App.css';
-import {useState} from 'react';
-import Banner from './Component/Banner.jsx'
-import posterIcon from './Images/Black-Panther-wakanda-forever-Character-Posters.webp';
-import ShowingAvailability from './Component/ShowingAvailability.jsx';
+import Banner from './component/Banner.jsx'
+import posterIcon from './assets/Black-Panther-wakanda-forever-Character-Posters.webp';
+import ShowingAvailability from './component/ShowingAvailability.jsx';
 
 const App = () => {
-  const [isName, setName] = useState('');
-  const [isActors, setActors] = useState('');
-  const [isDirectors, setDirectors] = useState('');
-  const [isRating, setRating] = useState('');
-  const [isRunTime, setRunTime] = useState(0);
-  const [isSynopsis, setSynopsis] = useState('');
-  const [isRelease, setRelease] = useState(0);
 
   return (
     <div className="Site">

@@ -1,6 +1,6 @@
 import '../Styles/Banner.css';
-import searchIcon from '../Images/kindpng_1433595.png';
-import companyLogo2 from '../Images/www.amctheatres.com_movies_black-panther-wakanda-forever-56467.png'
+import searchIcon from '../assets/kindpng_1433595.png';
+import companyLogo2 from '../assets/www.amctheatres.com_movies_black-panther-wakanda-forever-56467.png'
 
 const Banner = () => {
   return (

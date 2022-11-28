@@ -1,6 +1,5 @@
 import '../Styles/App.css';
 import ShowingTile from './ShowingTile';
-import {useState} from 'react';
 
 const testData = [
   {
@@ -60,7 +59,6 @@ const testData = [
 ]
 
 const ShowingAvailability = () => {
-  const [isShowingDetail, setShowingDetail] = useState([]);
   const showings = testData.map((showing) =>
     <ShowingTile info={showing} />
   );

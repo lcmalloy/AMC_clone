@@ -1,9 +1,7 @@
 import '../Styles/ShowingTile.css'
 
 const ShowingTile = (prop) => {
-  const testData = () => {
-    console.log(prop);
-  }
+
   return (
     <div className="ShowingTile_Container">
       <div className="Showing-Title">
