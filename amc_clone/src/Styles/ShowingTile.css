@@ -1,0 +1,62 @@
+.ShowingTile_Container {
+  border-style: double;
+  width: 90%;
+  height: 100px;
+  margin-left: 17px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.ShowingTile_Container:hover {
+  background-color:rgba(29, 28, 28, 0.8);
+}
+
+.Showing-Title {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 1.8vw;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.Showing-Showtime {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 1.5vw;
+  margin: auto;
+}
+
+.Showing-Location {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 1.5vw;
+  margin: auto;
+}
+
+.Showing-Seating {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  font-size: 1.5vw;
+  margin: auto;
+  transition: background-color 0.3s;
+}
+
+.Showing-Seating:hover {
+  background-color: rgba(61, 173, 49, 0.439)
+}
+
+.showing-Seating:active {
+  color: rgba(150, 8, 8, 0.434)
+}
